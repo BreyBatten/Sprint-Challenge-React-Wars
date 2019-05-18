@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 
-class App extends Component {
+class App extends Component { 
   constructor() {
     super();
     this.state = {
@@ -33,6 +33,7 @@ class App extends Component {
     return (
       <div className="App">
         <h1 className="Header">React Wars</h1>
+        
       </div>
     );
   }
